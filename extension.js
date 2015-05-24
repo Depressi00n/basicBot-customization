@@ -93,7 +93,7 @@
         motdEnabled: true,
         motdInterval: 5,
         motd: "!roulette",
-        filterChat: false,
+        filterChat: true,
         etaRestriction: false,
         welcome: true,
         opLink: null,
