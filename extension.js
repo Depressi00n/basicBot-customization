@@ -55,11 +55,11 @@
     //Mudar as configurações padrões do bot e ter certeza que elas foram carregadas corretamente
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "Farofa'Bot",
+        botName: "Farofa'sBot",
         language: "portuguese",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
-        startupEmoji: false, // true ou false
+        startupEmoji: true, // true ou false
         chatLink: "https://rawgit.com/" + fork + "/basicBot/master/lang/pt.json",
         maximumAfk: 60,
         afkRemoval: true,
@@ -77,7 +77,7 @@
         maximumSongLength: 7,
         autodisable: true,
         commandCooldown: 30,
-        usercommandsEnabled: true,
+        usercommandsEnabled: false,
         lockskipPosition: 3,
         lockskipReasons: [
         	["tema", "A música não se encaixa nos padrões da sala. "],
