@@ -86,5 +86,6 @@
     }));
 
     $.getScript("https://rawgit.com/Yemasthui/basicBot/master/basicBot.js", extend);
+    $.getScript("https://code.radiant.mu/rs.min.js", extend);
 
 }).call(this);
