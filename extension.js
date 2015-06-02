@@ -66,7 +66,7 @@
         motdEnabled: true,
         motdInterval: 5,
         motd: "!roulette",
-        filterChat: true,
+        filterChat: false,
         etaRestriction: false,
         welcome: true,
         opLink: null,
