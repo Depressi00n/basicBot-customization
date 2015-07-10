@@ -29,7 +29,7 @@
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: "Farofa'sBot",
-        language: "portugeese",
+        language: "portuguese",
         startupCap: 1,
         startupVolume: 0,
         startupEmoji: true,
